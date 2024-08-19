@@ -25,7 +25,7 @@ body {
 }
 
 .header-links > div {
-  gap: 20px;
+  gap: 40px;
   padding: 8px;
   padding-bottom: 0;
 }
@@ -35,9 +35,10 @@ body {
   margin: 0;
   margin-right: 20px;
   font-family: "Dancing Script", cursive;
+  font-size: 25px;
 }
 
-.header-right-link a:hover{
+.header-right-link a:hover {
   color: #3882f6;
   text-decoration: underline;
 }
@@ -56,7 +57,7 @@ body {
 .logo {
   font-family: "Dancing Script", cursive;
   font-weight: bolder;
-  font-size: large;
+  font-size: 40px;
 }
 
 .header-mid-div {
@@ -64,32 +65,30 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  gap: 8px;
+  gap: 10px;
   margin: 0;
   height: 100vh;
 }
 
 .hero-text {
   color: #f9faf8;
-  font-size: 50px;
+  font-size: 75px;
   font-weight: bolder;
   padding: 0;
   margin: 0;
   text-align: justify;
-  word-spacing: 4px;
+  word-spacing: 5px;
 }
 
 .hero-subtext {
-  font-size: 18px;
+  font-size: 30px;
   color: #e5e7eb;
-  text-align: justify;
   padding: 0;
   margin: 0;
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 .sub-header-div {
-  gap: 6px;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
@@ -105,7 +104,7 @@ body {
   text-align: center;
   align-content: center;
   width: 40%;
-  height: 40%;
+  height: 41%;
 }
 
 button.header-button {
@@ -115,7 +114,9 @@ button.header-button {
   background-color: #3882f6;
   border: none;
   border-radius: 4px;
-  margin-top: 10px;
+  margin-top: 24px;
+  height: 10%;
+  font-size: 20px;
 }
 
 /* Random Fact Part */
@@ -126,9 +127,8 @@ button.header-button {
   padding: 18px;
   margin: 0;
   height: 90vh;
-  justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 130px;
 }
 
 div.sub-mid-div {
@@ -142,7 +142,7 @@ div.sub-mid-div {
 div.mid-heading {
   color: #1f2937;
   font-weight: bolder;
-  font-size: 36px;
+  font-size: 75px;
   align-self: center;
 }
 
@@ -157,8 +157,8 @@ div.mid-heading {
   border-radius: 10px;
   border: 2px solid #3882f6;
   padding: 20px;
-  width: 100px;
-  height: 100px;
+  width: 285px;
+  height: 200px;
 }
 
 /* Quote Part */
@@ -170,29 +170,27 @@ div.mid-heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding: 30px;
   padding-bottom: 10px;
   gap: 10px;
 }
 
 .quote {
-  /* display: inline-block; */
-  font-size: 36px;
+  font-size: 50px;
   font-style: italic;
   color: #1f2937;
   font-weight: lighter;
-  /* padding: 30px; */
   margin: 0;
 }
 
 .quote-by {
+  font-size: 25px;
   padding: 0;
   margin: 0;
   align-self: flex-end;
   font-weight: bold;
-  margin-right: 24px;
-  margin-bottom: 34px;
+  margin-right: 90px;
+  margin-bottom: 20px;
 }
 
 /* Banner Part */
@@ -208,8 +206,8 @@ div.mid-heading {
   display: flex;
   background-color: #3882f6;
   justify-content: space-evenly;
-  padding: 16px;
-  gap: 40px;
+  align-items: center;
+  gap: 290px;
   border-radius: 8px;
   padding: 20px 0px;
   width: 60%;
@@ -219,10 +217,10 @@ div.mid-heading {
 .banner-button {
   color: white;
   background-color: transparent;
-  height: 20px;
+  height: 30%;
+  width: 10%;
   border: 2px solid white;
   border-radius: 5px;
-  align-self: center;
 }
 
 .banner-sub,
@@ -256,5 +254,5 @@ div.mid-heading {
 
 .gh-link {
   color: #f0f0f0;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
